@@ -44,9 +44,8 @@ fast_io;
 //-------------------------------
   
   vector<int> st{1,2,3};
-  // vector<int> cn{0};
   vector<vector<int>> cn;
-  // cn.push_back({0});
+  cn.push_back({0});
   // rje()<<rji(cn[0]);
   int n = st.size(), m = 1;
 
@@ -57,8 +56,8 @@ fast_io;
       if (!cn.empty()) y = cn[j];
       y.push_back(x);
       // cn.push_back(y*10 + x);
-    }
     cn.push_back(y);
+    }
     m = cn.size();
   }
 
