@@ -44,6 +44,7 @@ fast_io;
 //-------------------------------
   
   vector<int> st{1,2,3};
+  // vector<int> st{-4, 1, 3, -2, -1};
   vector<vector<int>> cn;
   cn.push_back({0});
   // rje()<<rji(cn[0]);
@@ -51,18 +52,19 @@ fast_io;
 
   for (int i = 0; i < n; i++) {
     int x = st[i];
-    vector<int> y;
     for (int j = 0; j < m; j++) {
-      if (!cn.empty()) y = cn[j];
+    	vector<int> y = cn[j];
       y.push_back(x);
       // cn.push_back(y*10 + x);
-    cn.push_back(y);
+    	cn.push_back(y);
     }
     m = cn.size();
   }
 
   for (vector<int> x : cn) {
     rje()<<x;
+    // int SUM = accumulate(x.begin(), x.end(), 0);
+    // if (SUM == 0) rje()<<x;
   }
 
 }
