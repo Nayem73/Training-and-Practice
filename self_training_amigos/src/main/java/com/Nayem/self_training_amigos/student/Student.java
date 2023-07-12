@@ -55,23 +55,23 @@ public class Student {
         return email;
     }
 
-//    public void setEmail(String email) {
-//        this.email = email;
-//    }
-//
-//    public LocalDate getDob() {
-//        return dob;
-//    }
-//
-//    public void setDob(LocalDate dob) {
-//        this.dob = dob;
-//    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public LocalDate getDob() {
+        return dob;
+    }
+
+    public void setDob(LocalDate dob) {
+        this.dob = dob;
+    }
 
     public Integer getAge() {
         return age;
     }
 
-//    public void setAge(Integer age) {
-//        this.age = age;
-//    }
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 }
