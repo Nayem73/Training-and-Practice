@@ -1,15 +1,18 @@
 package com.Nayem;
 
-import java.math.BigInteger;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Bag bag = new Bag();
-        Integer x = 5;
-        BigInteger bx = (BigInteger) x;
-        BigInteger y = new BigInteger("123456789101112131415161718192021222324");
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            int a, b, c;
+            a = s.nextInt(); b = s.nextInt(); c = s.nextInt();
+            if (a+b+c >= 2) cnt++;
+        }
 
-//        System.out.println(x + " + " + y + " = " + (x+y));
-        String x = String.
+        System.out.println(cnt);
     }
 }
