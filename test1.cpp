@@ -7,8 +7,7 @@ int main() {
 	cout << "print X = "<< x << endl;
 	int y = 10;
 
-	cout << "testing before printing" << endl;
-	return 0;
+	cout << "testin before printing" << endl;
 	int y = 10;
 
 	cout << "testing before printing" << endl;
