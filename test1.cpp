@@ -9,4 +9,7 @@ int main() {
 
 	cout << "testing before printing" << endl;
 	return 0;
+	int y = 10;
+
+	cout << "testing before printing" << endl;
 }
